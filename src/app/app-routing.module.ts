@@ -5,7 +5,7 @@ import { UsuarioComponent } from './usuarios/usuario/usuario.component';
 
 const routes: Routes = [
   { path: 'home', component: ListaComponent },
-  { path: 'usuario/:7id', component: UsuarioComponent },
+  { path: 'usuario/:id', component: UsuarioComponent },
   { path: '**', redirectTo: 'home' },
 ];
 
